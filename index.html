@@ -6,16 +6,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tableAss</title>
 </head>
-<body>
-    <table>
-        <th>
-            <td>S/N</td>
-            <td>STUDENTS</td>
-            <td>SUBJECTS</td>
-            <td>TOTAL SCORES</td>
-        </th>
-        <tbody>
+<style>
+    table,tr,th {
+        border: 1px solid black;
+        padding: 1px;
+    }
 
+    td {
+        border: 1px solid black;
+    }
+
+    #headingElement {
+        font-weight: 100;
+        text-align: center;
+    }
+
+</style>
+<body>
+    <h1>St. Benedict High School</h1>
+    <table width="100%" cellspacing="5" cellpadding="5" >
+        <thead id="headingElement">
+            <tr class="tableRow">
+                <th>S/N</th>
+                <th>Student</th>
+                <th>Mathematics</th>
+                <th>English</th>
+                <th>Physics</th>
+                <th>Chemistry</th>
+                <th>Biology</th>
+                <th>TOTAL SCORES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="tableRow">
+                <td>1</td>
+                <td>Adekunle</td>
+                <td>72</td>
+                <td>43</td>
+                <td>78</td>
+                <td>73</td>
+                <td>37</td>
+                <td class="subjectScore" colspan="2">303</td>
+            </tr>
+            <tr class="tableRow">
+                <td>2</td>
+                <td>John</td>
+                <td>42</td>
+                <td>64</td>
+                <td>70</td>
+                <td>55</td>
+                <td>58</td>
+                <td class="subjectScore" colspan="2">289</td>
+            </tr>
+            <tr class="tableRow">
+                <td>3</td>
+                <td>Peter</td>
+                <td>62</td>
+                <td>40</td>
+                <td>73</td>
+                <td>75</td>
+                <td>99</td>
+                <td class="subjectScore" colspan="2">349</td>
+            </tr>
+            <tr class="tableRow">
+                <td>4</td>
+                <td>Rukayat</td>
+                <td>77</td>
+                <td>75</td>
+                <td>78</td>
+                <td>75</td>
+                <td>82</td>
+                <td class="subjectScore" colspan="2">387</td>
+            </tr>
+            <tr class="tableRow">
+                <td>5</td>
+                <td>Paul</td>
+                <td>72</td>
+                <td>40</td>
+                <td>72</td>
+                <td>70</td>
+                <td>97</td>
+                <td class="subjectScore" colspan="2">351</td>
+            </tr>
+            <tr class="tableRow">
+                <td>6</td>
+                <td>Victor</td>
+                <td>72</td>
+                <td>43</td>
+                <td>78</td>
+                <td>73</td>
+                <td>37</td>
+                <td class="subjectScore" colspan="2">303</td>
+            </tr>
+            <tr class="tableRow">
+                <td>7</td>
+                <td>John</td>
+                <td>62</td>
+                <td>54</td>
+                <td>78</td>
+                <td>75</td>
+                <td>64</td>
+                <td class="subjectScore" colspan="2">333</td>
+            </tr>
+            <tr class="tableRow">
+                <td>8</td>
+                <td>Doe</td>
+                <td>52</td>
+                <td>84</td>
+                <td>48</td>
+                <td>85</td>
+                <td>27</td>
+                <td class="subjectScore" colspan="2">296</td>
+            </tr>
+            <tr class="tableRow">
+                <td>9</td>
+                <td>Stephen</td>
+                <td>92</td>
+                <td>44</td>
+                <td>78</td>
+                <td>65</td>
+                <td>61</td>
+                <td class="subjectScore" colspan="2">340</td>
+            </tr>
         </tbody>
     </table>
 </body>
